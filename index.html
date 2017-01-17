@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <title>Weather App</title>
+  <link href="https://fonts.googleapis.com/css?family=Arsenal|Roboto" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="Sass/weather-icons.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="Sass/weatherapp_stylesheet.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="config.js"></script>
+  <script src="weatherapp_jssheet.js"></script>
+    <body>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4"></div>
+          <div class="col-md-4">
+            <h1 class="text-center">Weather App</h1>
+            <div class="main">
+            <div class="col-md-6 temperature">
+              <i class="wi wi-thermometer"></i>
+                <p id="temp"></p>
+                <div class="btn-group btn-group-sm" role="group" aria-label="...">
+                  <button type="button" name="fahrenheit" class="btn btn-default active fahrenheit" >°F</button>
+                  <button type="button" name="celsius" class="btn btn-default celsius">°C</button>
+                </div>
+              </div>
+            <div class="col-md-6 weatherText"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

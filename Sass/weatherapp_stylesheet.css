@@ -1,0 +1,92 @@
+@@import "compass";
+@-webkit-keyframes increaseSize {
+  50% {
+    font-size: 3.2em; } }
+@-moz-keyframes increaseSize {
+  50% {
+    font-size: 3.2em; } }
+@-o-keyframes increaseSize {
+  50% {
+    font-size: 3.2em; } }
+@keyframes increaseSize {
+  50% {
+    font-size: 3.2em; } }
+body {
+  overflow: hidden;
+  margin-top: 30px; }
+
+h1 {
+  font: "Arsenal", sans-serif;
+  font-size: 2em;
+  background-color: white;
+  margin-bottom: 0;
+  border-top: 3px solid #924da3;
+  border-left: 3px solid #924da3;
+  border-right: 3px solid #924da3;
+  opacity: 0.8;
+  display: block;
+  margin-top: 30%;
+  padding-left: auto;
+  padding-right: auto;
+  padding-bottom: 6px;
+  padding-top: 4px; }
+
+.main {
+  display: flex;
+  background-color: white;
+  color: white;
+  padding: 1em;
+  height: 200px;
+  border: 3px solid #924da3;
+  border-top: none;
+  opacity: 0.8;
+  width: 100%; }
+  .main .temperature {
+    border-right: 3px inset white; }
+
+.place {
+  font-size: 1.5em;
+  font-family: "Arsenal", sans-serif; }
+
+#temp {
+  font-size: 2.7em;
+  font-family: "Roboto", sans-serif;
+  display: inline;
+  position: absolute;
+  padding-top: 0.3em;
+  margin-left: 25%; }
+
+.btn-group {
+  position: absolute;
+  top: 140px;
+  float: left; }
+
+.wi {
+  font-size: 3em;
+  padding-top: 1%;
+  padding-left: 4.5%;
+  padding-right: 0.5em;
+  display: flex;
+  position: fixed;
+  color: #F3A712;
+  -webkit-animation: increaseSize 2s ease-in infinite;
+  -moz-animation: increaseSize 2s ease-in infinite;
+  -o-animation: increaseSize 2s ease-in infinite;
+  animation: increaseSize 2s ease-in infinite; }
+
+.wi-thermometer {
+  position: absolute;
+  float: left;
+  padding-right: 3%;
+  padding-top: 10%;
+  display: flex;
+  animation: none; }
+
+.btn.active:focus {
+  outline: none; }
+
+.weatherText {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em; }
+
+/*# sourceMappingURL=weatherapp_stylesheet.css.map */
